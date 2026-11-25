@@ -21,7 +21,7 @@ with st.sidebar:
                     help="0.50 is the default. 0.40 is a 'screening mode' that catches more sick patients "
                          "but raises more false alarms.")
 
-tab1, tab2, tab3 = st.tabs(["🔍 Predict", "📊 Model performance"])
+tab1, tab2, tab3 = st.tabs(["🔍 Predict", "📊 Model performance", "⚖️ Limitations & ethics"])
 with tab1:
     page_predict.render(thr)
 with tab2:
